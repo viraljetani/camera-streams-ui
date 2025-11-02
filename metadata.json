@@ -1,0 +1,5 @@
+{
+  "name": "Camera Streams Dashboard",
+  "description": "A dashboard application to monitor and manage live camera streams from parking facility gates, providing controls to open gates for various reasons.",
+  "requestFramePermissions": []
+}
