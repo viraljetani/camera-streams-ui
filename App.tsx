@@ -5,14 +5,14 @@ import CameraStream from './components/CameraStream';
 import type { CameraData } from './types';
 
 const openGateReasons = ['Contractor', 'FOC', 'Guest No booking', 'Aggressive', 'Staff No Booking', 'Emergency', 'Late Check Out', 'Owner or Resident'];
-
+const imageUrlStatic = 'https://images.pexels.com/photos/11850871/pexels-photo-11850871.jpeg'
 const cameraStreamsData: CameraData[] = [
   {
     id: 'princess-entry',
     name: 'Princess St Entry',
     isReadingPlate: false,
     hasRestartButton: false,
-    imageUrl: null, // No Camera Stream
+    imageUrl: imageUrlStatic, // No Camera Stream
     buttons: openGateReasons,
   },
   {
@@ -20,7 +20,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Bay St Entry',
     isReadingPlate: false,
     hasRestartButton: false,
-    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: imageUrlStatic,
     buttons: openGateReasons,
   },
   {
@@ -28,7 +28,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Bay St Exit',
     isReadingPlate: true,
     hasRestartButton: true,
-    imageUrl: null, // No Camera Stream
+    imageUrl: imageUrlStatic, // No Camera Stream
     buttons: openGateReasons,
   },
   {
@@ -36,7 +36,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Princess St Exit',
     isReadingPlate: false,
     hasRestartButton: true,
-    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: imageUrlStatic,
     buttons: openGateReasons,
   },
    {
@@ -44,7 +44,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Level 2 Entry',
     isReadingPlate: false,
     hasRestartButton: true,
-    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: imageUrlStatic,
     buttons: openGateReasons,
   },
    {
@@ -60,7 +60,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Rooftop Entry',
     isReadingPlate: false,
     hasRestartButton: false,
-    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: imageUrlStatic,
     buttons: openGateReasons,
   },
    {
