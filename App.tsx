@@ -20,7 +20,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Bay St Entry',
     isReadingPlate: false,
     hasRestartButton: false,
-    imageUrl: 'https://cdn.pixabay.com/photo/2020/07/13/20/39/barrier-5402336_1280.jpg',
+    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     buttons: openGateReasons,
   },
   {
@@ -36,7 +36,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Princess St Exit',
     isReadingPlate: false,
     hasRestartButton: true,
-    imageUrl: 'https://cdn.pixabay.com/photo/2022/05/26/19/52/parking-7223778_1280.jpg',
+    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     buttons: openGateReasons,
   },
    {
@@ -44,7 +44,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Level 2 Entry',
     isReadingPlate: false,
     hasRestartButton: true,
-    imageUrl: 'https://cdn.pixabay.com/photo/2017/09/25/04/34/parking-lot-2783452_1280.jpg',
+    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     buttons: openGateReasons,
   },
    {
@@ -60,7 +60,7 @@ const cameraStreamsData: CameraData[] = [
     name: 'Rooftop Entry',
     isReadingPlate: false,
     hasRestartButton: false,
-    imageUrl: 'https://cdn.pixabay.com/photo/2019/09/22/17/37/car-park-4496225_1280.jpg',
+    imageUrl: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     buttons: openGateReasons,
   },
    {
